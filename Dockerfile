@@ -16,7 +16,7 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 # Define mountable directories.
-VOLUME ["/data/db"]
+VOLUME ["/var/docker/mongodb/db"]
 
 # Define working directory.
 WORKDIR /data
